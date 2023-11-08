@@ -1,0 +1,8 @@
+app-element {
+    display: block;
+    background: rgb(221, 14, 14);
+    color: white;
+    padding: 5px;
+    width: 125px;
+    height: 125px;
+  }

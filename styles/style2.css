@@ -1,0 +1,80 @@
+       /* Estilo del logotipo */
+#logo {
+    width: 200px; /* Ajusta el ancho al tamaño específico de tu logotipo */
+    text-align: center;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        /* Estilo de los contenedores de los puntos cardinales */
+        #north, #south, #east, #west {
+            width: 50px;
+            height: 50px;
+            background-color: #ff6600;
+            position: absolute;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        #north {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #south {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #east {
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        #west {
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        /* Estilo del menú */
+        #menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
+
+        #menu ul li {
+            margin-right: 20px;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        #menu ul li a:hover {
+            color: #ff6600;
+        }
